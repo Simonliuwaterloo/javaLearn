@@ -10,13 +10,13 @@ public class Enum_practice{
 		public void saySeason() {
 			switch (thisYear) {
 				case spring: System.out.println("It is now spring");
-							break;
-			case summer: System.out.println("It is now summer");
-							break;
-			case fall: System.out.println("It is now fall");
-							break;
-			case winter: System.out.println("It is now winter");
-							break;
+								break;
+				case summer: System.out.println("It is now summer");
+								break;
+				case fall: System.out.println("It is now fall");
+								break;
+				case winter: System.out.println("It is now winter");
+								break;
 			}
 		}
 	}
